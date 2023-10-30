@@ -1,0 +1,34 @@
+*{
+   
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: 'FAMILY_NAME';
+    src: url(FONT_FILE_NAME.woff2) format('woff2');
+   }
+.navbar{
+    --bs-navbar-toggler-focus-width: 0;
+    background-color: #FFFFFF;
+} 
+.navbar a{
+font-size: 13px;
+font-stretch: extra-expanded;
+letter-spacing: 1.5px;
+}
+.navbar a:hover{
+    color: #05c4f8;
+}
+.navbar .btn{
+    background-color: #05c4f8;
+    font-size: 13px !important;
+    padding: 13px 20px !important;
+}
+.navbar .btn:hover{
+    background-color:rgba(0, 255, 255, 0.712)f8 !important;
+}
+.ri-menu-3-line{
+color: #000;
+font-weight: 800;
+outline: none;
+}
